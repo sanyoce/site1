@@ -1,0 +1,45 @@
+head{
+    font-family: roboto;
+}
+
+body{
+    font-family: roboto;
+}
+
+.navi{
+    display: flex;
+    margin-top: 28px;
+    height: 72px;
+}
+
+.links{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+}
+
+.links2{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+.regbut{
+    width: 161px;
+    height: 48px;
+    background-color: black;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.regbut p{
+    color: white;
+}

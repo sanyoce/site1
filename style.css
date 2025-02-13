@@ -1,10 +1,7 @@
 
-head{
-    font-family: roboto;
-}
 
 body{
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navi{
@@ -124,3 +121,121 @@ body{
     background-color: white;
 }
 
+.page2{
+    width: 1200px;
+    height: 1050px;
+    background-color:#F7F7F7;
+    ;
+}
+
+.pg2textli{
+    display: flex;
+    flex-direction: column;
+    margin-left: 78px;  
+    height: 188px;
+    justify-content: center;
+}
+
+.pg2textli h2{
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 26.67px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+}
+
+.pg2textli p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #1E1D1DB8;
+}
+
+.pg2text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 78px;
+    height: 188px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pg2text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1E1D1DB8;
+    margin-right: 70px;
+}
+
+.pg2text h2{
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #1E1D1D;
+}
+
+.pg2table{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    margin: 0px 30px;
+}
+
+.pg2style{
+    height: 82.8px;
+    /* width: 554px; */
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid;
+    /* border-bottom: 2px solid; */
+    border-color:#1E1D1D1F;
+    align-items: center;
+    padding: 21px 40px;
+}
+
+.pg2sect1{
+width: 554px;
+/* height: 714px; */
+background-color: white;
+}
+
+.cube{
+    width: 48px;
+    height: 48px;
+    background-color: #6EEB9D;
+}
+
+.cube2{
+    width: 48px;
+    height: 48px;
+    background-color: #FFF67F;
+}
+
+
+.podcube{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.pg2bt1{
+    /* width: 474px;
+    height: 64px; */
+    margin-right:28px ;
+    border: 2px black solid;
+    margin-left: 38px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#lol{
+    border-bottom: 1px solid;
+    border-color: #1E1D1D1F;
+}
